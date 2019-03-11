@@ -12,6 +12,7 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
+const colouroSync = require('colouro-sdk').colouroSync;
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -27,6 +28,7 @@ const banner = ['/*!\n',
 
 // BrowserSync
 function browserSync(done) {
+  colouroSync();
   browsersync.init({
     server: {
       baseDir: "./"

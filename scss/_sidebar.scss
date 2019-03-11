@@ -31,13 +31,13 @@
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: $white;
+  color: $primary-bw-fg;
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: $primary-bw-fg;
   background: rgba(255, 255, 255, .2);
 }
 
@@ -48,7 +48,7 @@
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: fade-out($gray-800, .9);
+  background: fade-out($primary-bw-fg, .9);
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -57,11 +57,11 @@
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: $white;
+  color: $primary-bw-fg;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: $primary-bw-fg;
   background: none;
 }
 

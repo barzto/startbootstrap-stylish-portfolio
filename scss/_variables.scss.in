@@ -14,9 +14,9 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$primary: #b6e2fa !default;
-$primary-fg: #233a46 !default;
-$primary-bw-fg: #000000 !default;
-$secondary: #fa4e58 !default;
-$secondary-fg: #2c0608 !default;
-$midground: #fbf100 !default;
+$primary: {{bg-maj}} !default;
+$primary-fg: {{fg-maj}} !default;
+$primary-bw-fg: {{bg-maj-bw}} !default;
+$secondary: {{bg-min}} !default;
+$secondary-fg: {{fg-min}} !default;
+$midground: {{mg}} !default;

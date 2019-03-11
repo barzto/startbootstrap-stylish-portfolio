@@ -1,3 +1,42 @@
+# Fork notes first
+
+This is forked version of Stylish Portfolio Template. It was changed for demonstration purposes
+of [Colouro app](https://colouroapp.com/).
+
+Changes made to original version:
+1. Two main background images was changed to be grayscale mostly and have alpha channel so the color can be blended in CSS using `background-color` in conjunction with `background-image`.
+2. A bit unified usage of SASS color variables across styles/HTML.
+3. [Colouro SDK](http://docs.colouroapp.com/sdk-js/colouro-sync.html) integrated.
+
+
+## Quickstart
+
+1. Clone the repo
+
+    ```
+    git clone https://github.com/barzto/startbootstrap-stylish-portfolio.git
+    cd startbootstrap-stylish-portfolio
+    ```
+
+2. Create `colouro.local.json` file with IP address (and port) of you handset running Colouro app as displayed in _preview dialog_.
+
+    ```
+    {
+        "host":"192.168.0.42:8080"
+    }
+    ```
+3. Launch the [Colouro app](https://colouroapp.com)
+4. Install NPM packages and run `gulp watch`
+
+    ```
+    npm i
+    npx gulp watch
+    ```
+5. Change your color palette in Colouro app and see changes live in your browser.
+
+Have fun!
+
+
 # [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
 
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.

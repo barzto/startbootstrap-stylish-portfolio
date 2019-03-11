@@ -93,8 +93,9 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  color: #2c0608;
+  background-color: #fa4e58;
+  background-image: url("../img/bg-masthead.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +127,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: #b6e2fa;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -142,13 +143,13 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -159,7 +160,7 @@ h6 {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -168,11 +169,11 @@ h6 {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #fff;
+  color: #000000;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: #000000;
   background: none;
 }
 
@@ -205,8 +206,8 @@ h6 {
 }
 
 .service-icon {
-  background-color: #fff;
-  color: #1D809F;
+  background-color: #233a46;
+  color: #b6e2fa;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -218,8 +219,9 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background-color: #fa4e58;
+  color: #2c0608;
+  background-image: url("../img/bg-callout.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -295,7 +297,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(182, 226, 250, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -312,7 +314,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #b6e2fa;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -320,38 +322,38 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #86cff7;
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: #0f8fd5;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: black;
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
-  color: #fff !important;
+  background-color: #b6e2fa !important;
+  border-color: #b6e2fa !important;
+  color: #233a46 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #86cff7 !important;
+  border-color: #86cff7 !important;
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #fff !important;
+  background-color: #fa4e58 !important;
+  border-color: #fa4e58 !important;
+  color: #2c0608 !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #f91c29 !important;
+  border-color: #f91c29 !important;
 }
 
 .btn-dark {
@@ -365,13 +367,17 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #b6e2fa !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #000000 !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #2c0608 !important;
+}
+
+.text-faded {
+  color: #233a46;
 }
